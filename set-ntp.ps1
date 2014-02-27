@@ -7,6 +7,7 @@ VMware ESXi hosts.
 ** MAKE SURE LOCAL SYSTEM TIME IS CORRECT!!!!
 
 v1.0    27 February 2014:   Initial draft
+v1.1	27 February 2014:	Changed menu option 1 to dark gray cause no worky.
 
 Written By Josh Townsend
 
@@ -154,7 +155,7 @@ while ( $xMenuChoiceA -lt 1 -or $xMenuChoiceA -gt 8 ){
 CLS
 # ------ Menu Choices -------
     Write-Host “Choose an option below to modify all ESXi hosts DNS and NTP settings.`n” -ForegroundColor Magenta
-    Write-host "`t1. Delete all existing DNS Servers values (not working)" -ForegroundColor Cyan
+    Write-host "`t1. Delete all existing DNS Servers values (not working)" -ForegroundColor DarkGray
     Write-host "`t2. Delete all existing NTP Server values" -ForegroundColor Cyan
     Write-host "`t3. Delete all existing DNS & NTP Servers (not working)" -ForegroundColor Cyan
     Write-host "`t4. Manually set time on all hosts to match your local system time.*" -ForegroundColor Cyan
