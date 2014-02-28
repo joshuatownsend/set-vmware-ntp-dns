@@ -159,7 +159,7 @@ CLS
     Write-host "`t2. Delete all existing NTP Server values" -ForegroundColor Cyan
     Write-host "`t3. Delete all existing DNS & NTP Servers (not working)" -ForegroundColor Cyan
     Write-host "`t4. Manually set time on all hosts to match your local system time.*" -ForegroundColor Cyan
-    Write-host "`t`t*This option prevents NTP sync problems due to large offset" -ForegroundColor Gray
+    Write-host "`t*This option prevents NTP sync problems due to large offset" -ForegroundColor Gray
     Write-host "`t5. Add additional DNS Server values**" -ForegroundColor Cyan
     Write-host "`t**This will overwrite any existing values" -ForegroundColor Gray
     Write-host "`t6. Add additional NTP Server values and set NTP to start with host.***" -ForegroundColor Cyan
